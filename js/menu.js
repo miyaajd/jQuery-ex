@@ -1,5 +1,4 @@
-$(function () { 
-
+$(function () {
   // slideDown() / slideUp()
   // console.log("start");
   //   $(".menu > li").hover(
@@ -21,15 +20,25 @@ $(function () {
   //   })
 
   //서브메뉴 한꺼번에 열림
-//   $(".menu").hover(function(){
-//     $(".submenu").stop().slideDown(300)
-//   },function(){
-//     $(".submenu").stop().slideUp(300)
-//   })
-//   
-  $(".menu").hover(function(){
-    $(".submenu , .headerBg").stop().fadeIn(300)
-  },function(){
-    $(".submenu , .headerBg").stop().fadeOut(300)
-  })
+  //   $(".menu").hover(function(){
+  //     $(".submenu").stop().slideDown(300)
+  //   },function(){
+  //     $(".submenu").stop().slideUp(300)
+  //   })
+  //
+    $(".menu").hover(function(){
+      $(".submenu , .headerBg").stop().fadeIn(300)
+    },function(){
+      $(".submenu , .headerBg").stop().fadeOut(300)
+    })
+
+  // classList.add
+  $(".menu > li").hover(
+    function () {
+      $(this).find(".submenu , .headerBg ").addClass("active");
+    },
+    function () {
+      $(this).find(".submenu, .headerBg ").removeClass("active");
+    }
+  );
 });
