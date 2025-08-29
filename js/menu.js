@@ -28,8 +28,8 @@ $(function () {
 //   })
 //   
   $(".menu").hover(function(){
-    $(".submenu").stop().fadeIn(300)
+    $(".submenu , .headerBg").stop().fadeIn(300)
   },function(){
-    $(".submenu").stop().fadeOut(300)
+    $(".submenu , .headerBg").stop().fadeOut(300)
   })
 });
