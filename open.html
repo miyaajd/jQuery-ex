@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- js (jQuery 먼저 불러오기****)-->
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/open.js"></script>
+    <style>
+      #popup {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 50%;
+        padding: 30px;
+        text-align: center;
+        display: none;
+      }
+      #popup p {
+        color: #fff;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="openBtn">Open Pop-up</button>
+    <div id="popup">
+      <div class="popUpDscr"><p>Pop Up dscr</p></div>
+      <button id="closeBtn">Close</button>
+    </div>
+  </body>
+</html>

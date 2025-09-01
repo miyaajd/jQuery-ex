@@ -1,0 +1,68 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: #222;
+  line-height: 1;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+i {
+  display: block;
+}
+button {
+  all: unset;
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+
+:root {
+  /*  */
+  /* Color Palette */
+  --color-main: ;
+  --color-sub: ;
+  --color-background: ;
+  --color-button: ;
+  --color-icon: ;
+  --color-active: ;
+
+  /*  */
+  /* effect */
+  --effect-gradient-left-to-right: ;
+  --effect-gradient-right-to-left: ;
+  --effect-gradient-top-to-bottom: ;
+  --effect-gradient-bottom-to-top: ;
+
+  /*  */
+  /* font size */
+
+  --font-title: 600 28px;
+  --font-subtitle: 500 22px;
+  --font-dscr-regular: 500 16px;
+  --font-dscr-small: 400 14px;
+
+  /*  */
+  /* inner */
+
+  --inner-default: ;
+
+  /*  */
+  /* Padding / Margine */
+
+  --padding-default: ;
+  --margine-default: ;
+}
