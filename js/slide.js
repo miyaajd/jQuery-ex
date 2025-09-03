@@ -31,6 +31,6 @@ $(function () {
     fadeSlide.eq(next).fadeIn(1000);
     firstIndex = next; //재할당 해야해서 let 사용
   };
-  fadeSlide.hide().eq(0).show()
+//   fadeSlide.hide().eq(0).show()
   setInterval(moveFade, 4000);
 });
